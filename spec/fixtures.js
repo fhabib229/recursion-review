@@ -1,3 +1,5 @@
+var dummy = {a: 1, b: 'hello world!'};
+
 var FILL_ME_IN = 'Fill me in.';
 
 var validStrings, invalidStrings, // used for stringifyJSON and parseJSON specs
