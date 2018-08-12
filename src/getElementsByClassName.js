@@ -13,11 +13,8 @@ var getElementsByClassName = function(className) {
     var children = element.childNodes;
 
     _.each(classList, function(name) {
-      console.log(name);
       if (name === className) {
-        console.log('It goes here!');
         acc.push(element);
-        console.log(JSON.stringify(acc));
       }
     });
 
