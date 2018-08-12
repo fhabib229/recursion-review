@@ -11,8 +11,7 @@ describe('stringifyJSON', function() {
     unstringifiableValues.forEach(function(obj) {
       var expected = JSON.stringify(obj);
       var result = stringifyJSON(obj);
-      expect(result).to.equal(expexted);
+      expect(result).to.equal(expected);
     });
-
   });
 });
